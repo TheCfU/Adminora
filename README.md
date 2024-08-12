@@ -1,8 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Adminora (Website)
+[![Project Status: W.I.P – The project is not yet stable.](https://www.repostatus.org/badges/latest/wip.svg)]()
+
+**W.I.P** – The project is not yet stable.
+
+---
+
+This is the website for Adminora.
+
+## What is Adminora?
+
+Adminora is a system designed to provide an overview of your different services and hosts. It offers the ability to manage hosts, assign services to hosts, and manage monitoring with Prometheus/Grafana (W.I.P).
 
 ## Getting Started
 
-First, run the development server:
+To start the development server, use one of the following commands:
 
 ```bash
 npm run dev
@@ -14,23 +25,34 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Credits
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project utilizes:
 
-## Learn More
+- [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Material-UI (Mui) for the website design.
 
-To learn more about Next.js, take a look at the following resources:
+### 3rd Party Licenses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can find the licenses for third-party components in the `3rd-party-license` folder.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution
 
-## Deploy on Vercel
+To contribute, please follow the `Contribution Guidelines` in the repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+
+```text
+___________.__           _________   _____ ____ ___ 
+\__    ___/|  |__   ____ \_   ___ \_/ ____\    |   \
+  |    |   |  |  \_/ __ \/    \  \/\   __\|    |   /
+  |    |   |   Y  \  ___/\     \____|  |  |    |  / 
+  |____|   |___|  /\___  >\______  /|__|  |______/  
+                \/     \/        \/
+```
+
+---
