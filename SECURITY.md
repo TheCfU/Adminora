@@ -6,7 +6,7 @@ The following table indicates which versions are currently receiving security up
 
 | Version | Supported          |
 | ------- | ------------------ |
-|    Any    | :white_check_mark: |
+|    Any    | :x: |
 
 ## Reporting a Vulnerability
 
